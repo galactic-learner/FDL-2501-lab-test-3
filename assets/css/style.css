@@ -1,0 +1,155 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --font3: "Baloo Da 2", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+/* ================ NAVIGATION START ================ */
+#nav {
+    padding: 0px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#nav ul li a {
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    padding: 18px 20px;
+
+    position: relative;
+
+}
+
+#nav ul li a::after {
+    content: "";
+    position: absolute;
+
+    width: 0%;
+    height: 2px;
+    background: #353535;
+
+    left: 0px;
+    bottom: 0px;
+}
+
+#nav ul li a:hover::after {
+    width: 100%;
+    transition: 0.5s;
+
+}
+
+#nav .menu_bar {
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #353535;
+}
+
+/* ================ NAVIGATION END ================ */
+
+/* ================ HERO START ================ */
+#hero span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+}
+
+#hero h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+
+#hero p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+}
+
+#hero .row {
+    /* display: flex; */
+    align-items: center;
+
+}
+
+#hero .link_btn a {
+    display: inline-flex;
+    align-items: center;
+    background: #28E98C;
+    line-height: 0;
+    padding: 16px 45px;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero .link_btn a span {
+    color: #fff;
+    margin-left: 11px;
+}
+
+#hero .link_btn a:hover {
+    background: transparent;
+    color: #353535;
+    outline: 1px solid #353535;
+}
+
+#hero .link_btn a:hover span {
+    color: #353535;
+}
+
+#hero .link_btn a:last-child {
+    background: transparent;
+    color: #353535;
+    outline: 1px solid #353535;
+    padding: 15px 45px;
+    margin-left: 40px;
+}
+#hero .link_btn a:last-child span{
+    color: #353535;
+}
+#hero .icons {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    margin-top: 30px;
+}
+#hero ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+    display: flex;
+}
+#hero ul li a {
+    display: flex;
+    align-items: center;
+    /* background: yellow; */
+    /* line-height: 0; */
+    color: #000000;
+    padding: 10px;
+    background: #F1F0F1;
+    /* border-radius: 05%; */
+    margin-left: 15px;
+}
+
+.hero_img{
+    width: 400px;
+}
+
+/* ================ HERO END ================ */

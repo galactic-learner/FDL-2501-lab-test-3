@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+    #nav {
+        padding: 15px 0px !important;
+    }
+
+    .offcanvas {
+        width: 80%;
+        max-width: 330px;
+    }
+
+    #hero {
+        text-align: center;
+    }
+
+    #hero h4 {
+        font-size: 40px;
+    }
+
+    #hero .link_btn a:last-child {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    #hero .hero_content{
+        margin-top: 20px;
+    }
+
+}
